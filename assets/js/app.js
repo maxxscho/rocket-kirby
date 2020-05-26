@@ -104,7 +104,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log("Hello World");
+console.log("Hello, my name is 🚀 \nI'm here to help you 🙂");
 
 /***/ }),
 
