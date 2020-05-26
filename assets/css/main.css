@@ -591,6 +591,8 @@ video {
   height: auto;
 }
 
+/* Custom base styles */
+
 .container {
   width: 100%;
 }
