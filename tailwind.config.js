@@ -1,5 +1,10 @@
 module.exports = {
-  purge: [],
+  purge: [
+      './site/snippets/**/*.php',
+      './site/templates/**/*.php',
+      './src/**/*.js',
+      './src/**/*.vue',
+  ],
   target: 'relaxed',
   prefix: '',
   important: false,
