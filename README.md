@@ -1,82 +1,15 @@
-# Kirby Plainkit
-
-Kirby is a file-based CMS.
-Easy to setup. Easy to use. Flexible as hell.
-
-## Trial
-
-You can try Kirby on your local machine or on a test
-server as long as you need to make sure it is the right
-tool for your next project.
-
-## Buy a license
-
-You can purchase your Kirby license at
-<https://getkirby.com/buy>
-
-A Kirby license is valid for a single domain. You can find
-Kirby's license agreement here: <https://getkirby.com/license>
-
-## The Plainkit
-
-Kirby's Plainkit is the most minimal setup you can get started with.
-It does not include any content, styles or other kinds of decoration,
-so it's perfect to use this as a starting point for your own project.
-
-## The Panel
-
-You can find the login for Kirby's admin interface at
-http://yourdomain.com/panel. You will be guided through the signup
-process for your first user, when you visit the panel
-for the first time.
+# Rocket Boilerplate for Kirby
+This is a Boilerplate Template for a new [Kirby](https://getkirby.com/) Site with the following features:
+- "[Kirby Plainkit](https://github.com/getkirby/plainkit)" Installation with the `default.php` template and two additional snippets, `header.php` and `footer.php`.
+- [Laravel Mix](https://laravel-mix.com/) for compiling Assets
+- [TailwindCSS](https://tailwindcss.com/), a utility-first CSS Framework
+- PostCSS as Preprocessor with PostCSS-Import set up
+- [ESLint](https://eslint.org/)- and [Prettier](https://prettier.io/)-Setup for code quality
 
 ## Installation
+Clone or Download this repo, run `npm install` and you're good to go.
 
-Kirby does not require a database, which makes it very easy to
-install. Just copy Kirby's files to your server and visit the
-URL for your website in the browser.
-
-**Please check if the invisible .htaccess file has been
-copied to your server correctly**
-
-### Requirements
-
-Kirby runs on PHP 7.1+, Apache or Nginx.
-
-### Download
-
-You can download the latest version of the Plainkit
-from https://github.com/getkirby/plainkit/archive/master.zip
-
-### With Git
-
-If you are familiar with Git, you can clone Kirby's
-Plainkit repository from Github.
-
-    git clone https://github.com/getkirby/plainkit.git
-
-## Documentation
-
-<https://getkirby.com/docs>
-
-## Issues
-
-If you have a Github account, please report issues
-directly on Github: <https://github.com/getkirby/kirby/issues>
-
-Otherwise you can use Kirby's forum: https://forum.getkirby.com
-or send us an email: <support@getkirby.com>
-
-## Ideas & Feature Requests
-
-If you have ideas for new features, please submit a ticket in our ideas repository:
-<https://github.com/getkirby/kirby/ideas>
-
-## Support
-
-<https://getkirby.com/support>
-
-## Copyright
-
-© 2009-2019 Bastian Allgeier (Bastian Allgeier GmbH)
-<https://getkirby.com>
+## Compiling assets
+- `npm run dev` compiles the assets
+- `npm run watch` compiles the assets and watches for changes
+- `npm run production` compiles and minifies the assets (TailwindCSS uses its [built-in `purge` feature](https://tailwindcss.com/docs/controlling-file-size) to controll its file-size)
