@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/css/main.css":
+/*!**************************!*\
+  !*** ./src/css/main.css ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./src/js/app.js":
 /*!***********************!*\
   !*** ./src/js/app.js ***!
@@ -98,13 +109,14 @@ console.log("Hello World");
 /***/ }),
 
 /***/ 0:
-/*!*****************************!*\
-  !*** multi ./src/js/app.js ***!
-  \*****************************/
+/*!************************************************!*\
+  !*** multi ./src/js/app.js ./src/css/main.css ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/markusschober/Code/rocket-kirby/src/js/app.js */"./src/js/app.js");
+__webpack_require__(/*! /Users/markusschober/Code/rocket-kirby/src/js/app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! /Users/markusschober/Code/rocket-kirby/src/css/main.css */"./src/css/main.css");
 
 
 /***/ })
