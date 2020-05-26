@@ -15,7 +15,8 @@ mix.js('src/js/app.js', 'assets/js/')
     .postCss('src/css/main.css', 'assets/css', [
         require('postcss-import'),
         require('tailwindcss'),
-    ]);
+    ])
+    .copy('src/favicons', 'assets/favicons');
 
 // Full API
 // mix.js(src, output);
