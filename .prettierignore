@@ -1,0 +1,4 @@
+# These Files are ignored by prettier
+assets/js/*
+tailwind.config.js
+webpack.mix.js

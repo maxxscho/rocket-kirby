@@ -1,4 +1,4 @@
-let mix = require("laravel-mix");
+let mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -11,11 +11,10 @@ let mix = require("laravel-mix");
  |
  */
 
-mix.js("src/js/app.js", "assets/js/").postCss(
-    "src/css/main.css",
-    "assets/css",
-    [require("tailwindcss")]
-);
+mix.js('src/js/app.js', 'assets/js/')
+    .postCss('src/css/main.css', 'assets/css', [
+        require('tailwindcss'),
+    ]);
 
 // Full API
 // mix.js(src, output);
