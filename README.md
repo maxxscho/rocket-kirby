@@ -13,3 +13,6 @@ Clone or Download this repo, run `npm install` and you're good to go.
 - `npm run dev` compiles the assets
 - `npm run watch` compiles the assets and watches for changes
 - `npm run production` compiles and minifies the assets (TailwindCSS uses its [built-in `purge` feature](https://tailwindcss.com/docs/controlling-file-size) to controll its file-size)
+
+## License
+Laravel Mix is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
