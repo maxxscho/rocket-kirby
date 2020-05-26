@@ -1,3 +1,5 @@
-body {
-    background: #c2ebf0;
-}
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
