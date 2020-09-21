@@ -1,7 +1,7 @@
 # 🚀 Rocket Kirby - Kirby Boilerplate
 
 Rocket is a simple Boilerplate for a new [Kirby](https://getkirby.com/) with the following things preinstalled:
-- "[Kirby Plainkit](https://github.com/getkirby/plainkit)" Installation as a Git Submodule with the `default.php` template and two additional snippets, `header.php` and `footer.php`.
+- "[Kirby Plainkit](https://github.com/getkirby/plainkit)" Installation as a Git Submodule with the `default.php` template and two additional snippets, `header.php` and `footer.php`. While Kirby's source code is publicly available, Kirby is not free. To use Kirby on a public server, you need to purchase a license. Check out [Kirby's License Agreement](https://getkirby.com/license).
 - [Laravel Mix](https://laravel-mix.com/) - an elegant wrapper around Webpack for the 80% use-case
 - [ESLint](https://eslint.org/), preconfigured with the [Airbnb Base Config](https://github.com/airbnb/javascript) and the [Prettier Config](https://github.com/prettier/eslint-config-prettier)
 - Pretter preconfigured
