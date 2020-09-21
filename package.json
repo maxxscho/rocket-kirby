@@ -15,13 +15,14 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^7.0.2",
-    "eslint": "^7.1.0",
-    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.20.2",
-    "laravel-mix": "^5.0.4",
+    "eslint-plugin-import": "^2.22.0",
+    "laravel-mix": "^5.0.5",
     "postcss-import": "^12.0.1",
-    "tailwindcss": "^1.4.6",
-    "vue-template-compiler": "^2.6.11"
+    "postcss-nested": "^4.2.3",
+    "tailwindcss": "^1.8.10",
+    "vue-template-compiler": "^2.6.12"
   }
 }

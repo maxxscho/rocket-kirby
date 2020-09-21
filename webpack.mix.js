@@ -15,6 +15,7 @@ mix.js('src/js/app.js', 'assets/js/')
     .postCss('src/css/main.css', 'assets/css', [
         require('postcss-import'),
         require('tailwindcss'),
+        require('postcss-nested')
     ])
     .copy('src/favicons', 'assets/favicons');
 
