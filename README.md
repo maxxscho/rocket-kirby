@@ -1,18 +1,16 @@
-# Rocket Boilerplate for Kirby
-This is a Boilerplate Template for a new [Kirby](https://getkirby.com/) Site with the following features:
-- "[Kirby Plainkit](https://github.com/getkirby/plainkit)" Installation with the `default.php` template and two additional snippets, `header.php` and `footer.php`.
-- [Laravel Mix](https://laravel-mix.com/) for compiling Assets
-- [TailwindCSS](https://tailwindcss.com/), a utility-first CSS Framework
-- PostCSS as Preprocessor with PostCSS-Import set up
-- [ESLint](https://eslint.org/)- and [Prettier](https://prettier.io/)-Setup for code quality
+# 🚀 Rocket Kirby - Kirby Boilerplate
 
-## Installation
-Clone or Download this repo, run `npm install` and you're good to go.
+Rocket is a simple Boilerplate for a new [Kirby](https://getkirby.com/) with the following things preinstalled:
+- "[Kirby Plainkit](https://github.com/getkirby/plainkit)" Installation as a Git Submodule with the `default.php` template and two additional snippets, `header.php` and `footer.php`.
+- [Laravel Mix](https://laravel-mix.com/) - an elegant wrapper around Webpack for the 80% use-case
+- [ESLint](https://eslint.org/), preconfigured with the [Airbnb Base Config](https://github.com/airbnb/javascript) and the [Prettier Config](https://github.com/prettier/eslint-config-prettier)
+- Pretter preconfigured
+- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs
+- CSS processing with PostCss (including [PostCSS Import](https://github.com/postcss/postcss-import) and [PostCss Nested](https://github.com/postcss/postcss-nested))
+- [AlpineJS](https://github.com/alpinejs/alpine/) - A rugged, minimal framework for composing JavaScript behavior in your markup
 
-## Compiling assets
-- `npm run dev` compiles the assets
-- `npm run watch` compiles the assets and watches for changes
-- `npm run production` compiles and minifies the assets (TailwindCSS uses its [built-in `purge` feature](https://tailwindcss.com/docs/controlling-file-size) to controll its file-size)
-
-## License
-Laravel Mix is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## Get started
+1. Since this Repo is a [Github Template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) just click the "Use this template"-Button or click on [this link](https://github.com/maxxscho/rocket/generate). This will create a new Repo for you, based on this template.
+2. Clone your newly created Repo
+3. run `npm install`
+4. Compile your assets with `npm run dev` or with hot-reloading `npm run watch`. This will create a new folder `public` with your CSS and JS files
