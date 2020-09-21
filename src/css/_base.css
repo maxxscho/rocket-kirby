@@ -1,1 +1,5 @@
-/* Custom base styles */
+/* AlpineJS
+--------------------------------------------------- */
+[x-cloak] {
+    display: none;
+}
